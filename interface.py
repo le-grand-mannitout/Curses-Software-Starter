@@ -4,6 +4,7 @@ import curses
 
 KEY_K = 106
 KEY_J = 107
+KEY_ENTER = 10
 
 def display_moods(stdscr, mood_names):
     
@@ -33,6 +34,9 @@ def graphical_interface(stdscr, mood_dict):
         
         elif k in (curses.KEY_UP, KEY_J):
             cursor -= 2
+            
+        elif k == KEY_ENTER:
+            return mood_dict[mood_names[cursor//2]]
             
             
         cursor = max(0, cursor)

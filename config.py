@@ -1,6 +1,6 @@
 
 
 moods = {
-    "Chill": "firefox",
+    "Chill": ("firefox", "geany"),
     "Programming": "geany"
 }
