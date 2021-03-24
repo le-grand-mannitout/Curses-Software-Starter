@@ -12,7 +12,7 @@ def display_moods(stdscr, mood_names: list):
     """
     stdscr.addstr(0, 0, "--Mood selector--")
     for i, mood in enumerate(mood_names):
-        stdscr.addstr(i*2 + 2, 2, mood)
+        stdscr.addstr(i*2 + 2, 0, f"  {mood}")
 
 
 def cursor_mov(stdscr,
@@ -21,6 +21,10 @@ def cursor_mov(stdscr,
     """
         Move the cursor by changing text background color
     """
+    stdscr.addstr(index_to_cursor,
+                  0,
+                  "* ")
+
     stdscr.addstr(index_to_cursor,
                   2,
                   mood_names[(index_to_cursor - 2)//2],
