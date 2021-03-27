@@ -1,8 +1,15 @@
 # A simple software starter
 
+<p align="center">
+    <img width="300" src="https://user-images.githubusercontent.com/61273515/112729934-ee0c8e80-8f2e-11eb-8b2c-6277fe80b1ee.png" alt="Curses_screen">
+    <br><br>
+    Software starter at computer launch.
+</p>
+
+
 ### What is the purpose of this software ?
 
-With this software, you can easily select your applications paterns at computer startup.
+With this software, you can easily select your application patterns at computer startup.
 
 When you have a specific intention when starting your computer, you can get into it very fast by just selecting your mood.
 
